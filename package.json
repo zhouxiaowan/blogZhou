@@ -1,0 +1,16 @@
+{
+  "name": "blogZhou",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zhouxiaowan/blogZhou.git",
+  "author": "zhouxw <zhouxw@ehualu.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
