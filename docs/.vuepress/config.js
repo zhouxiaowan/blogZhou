@@ -6,7 +6,7 @@ module.exports = {
     ],
     themeConfig: {
         nav:[ // 导航栏配置
-            {text: '前端基础', link: '/basic/javascript/scope.html' },
+            {text: '前端基础', link: '/basic/javascript/01_类型.html' },
             {text: '进阶之路', link: '/advanced/vue3/创建vue3项目.html' },
             {text: '计算机基础', link: '/computerBasic/designPatterns/01_发布订阅模式.html' },
             {text: 'Github', link: 'https://github.com/zhouxiaowan'}
@@ -16,9 +16,15 @@ module.exports = {
                 {
                     title: '前端基础',
                     children: [
-                        '/basic/javascript/scope.html',
-                        '/basic/javascript/prototype.html',
-                        '/basic/javascript/extend.html',
+                        '/basic/javascript/01_类型.html',
+                        '/basic/javascript/02_原型.html',
+                        '/basic/javascript/03_继承.html',
+                        '/basic/javascript/04_作用域.html',
+                        '/basic/javascript/05_闭包.html',
+                        '/basic/javascript/06_this指向.html',
+                        '/basic/javascript/07_内存.html',
+                        '/basic/javascript/08_冒泡和捕获.html',
+                        '/basic/javascript/09_防抖和节流.html',
                     ]
                 },
                 {

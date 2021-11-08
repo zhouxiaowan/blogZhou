@@ -27,8 +27,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a969d9bd-32be-4410-ab25-fb7ba696ac60" name="Default Changelist" comment="123">
-      <change afterPath="$PROJECT_DIR$/docs/computer-basic/design-patterns/发布订阅.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/computer-basic/design-patterns/迭代器模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/images/clipboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basic/javascript/01_类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basic/javascript/05_闭包.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basic/javascript/06_this指向.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basic/javascript/07_内存.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basic/javascript/08_冒泡和捕获.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basic/javascript/09_防抖和节流.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic/javascript/extend.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic/javascript/03_继承.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic/javascript/prototype.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic/javascript/02_原型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic/javascript/scope.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic/javascript/04_作用域.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +56,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/basic/javascript" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/basic/javascript" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/.vuepress/public/images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1636351519780</updated>
       <workItem from="1636351521047" duration="4239000" />
+      <workItem from="1636374425125" duration="8421000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1636351716094</created>

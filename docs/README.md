@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/photo.png
 actionText: Get Started →
-actionLink: /basic/javascript/scope.html
+actionLink: /basic/javascript/01_类型.html
 features:
 - title: 前端基础
   details: 作用域，闭包，原型链，继承，this指向等等，记录我的学习之路
