@@ -1,0 +1,41 @@
+---
+title: 创建vue3项目
+date: 2021-11-18 12:30:55
+lastUpdated: 2021-11-18 12:30:55
+---
+# 1 创建vue的两种方式
+## 1.1 通过vue-cli脚手架安装
+保证vue-cli版本在4.5.0以上
+```shell
+## 安装或升级
+vue install -g @vue/cli
+## 查看当前版本
+vue --version
+## 创建项目
+vue create vue3-project
+```
+然后之后的步骤
+* 选择上 TypeScript
+* Please pick a preset - 选择 Manually select features
+* Choose a version of Vue.js that you want to start the project with - 选择 3.x (Preview)
+* ...
+## 1.2通过vite
+* npm
+```shell
+# npm 6.x
+$ npm init vite@latest <project-name> --template vue
+
+# npm 7+，需要加上额外的双短横线
+$ npm init vite@latest <project-name> -- --template vue
+
+$ cd <project-name>
+$ npm install
+$ npm run dev
+```
+* yarn 
+```shell
+$ yarn create vite <project-name> --template vue
+$ cd <project-name>
+$ yarn
+$ yarn dev
+```
