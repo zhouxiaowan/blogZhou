@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/photo.png
+heroImage: /images/head.jpg
 actionText: Get Started →
 actionLink: /basic/javascript/01_类型.html
 features:
