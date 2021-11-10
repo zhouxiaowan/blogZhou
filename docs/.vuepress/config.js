@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Zhou\'s blog ',
+    title: 'zxw\'s blog ',
     description: '我的学习之路',
     head:[
         ['link',{rel:'icon',href:'/images/photo.png'}]
@@ -7,7 +7,7 @@ module.exports = {
     themeConfig: {
         nav:[ // 导航栏配置
             {text: '前端基础', link: '/basic/javascript/01_类型.html' },
-            {text: '进阶之路', link: '/advanced/vue3/创建vue3项目.html' },
+            {text: '进阶之路', link: '/advanced/vue3/01_创建vue3项目.html' },
             {text: '计算机基础', link: '/computerBasic/designPatterns/01_发布订阅模式.html' },
             {text: 'Github', link: 'https://github.com/zhouxiaowan'}
         ],
@@ -49,7 +49,9 @@ module.exports = {
                 {
                     title: 'Vue3',
                     children: [
-                        '/advanced/vue3/创建vue3项目.html'
+                        '/advanced/vue3/01_创建vue3项目.html',
+                        '/advanced/vue3/02_组合式API.html',
+                        '/advanced/vue3/03_vue2和vue3响应式对比.html'
                     ]
                 },
                 {

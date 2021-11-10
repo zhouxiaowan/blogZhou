@@ -28,11 +28,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a969d9bd-32be-4410-ab25-fb7ba696ac60" name="Default Changelist" comment="添加类型">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/images/photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/images/photo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic/javascript/03_继承.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic/javascript/03_继承.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic/javascript/06_this指向.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic/javascript/06_this指向.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/advanced/vue3/创建vue3项目.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
