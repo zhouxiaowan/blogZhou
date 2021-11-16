@@ -61,7 +61,8 @@ module.exports = {
                     children: [
                         '/advanced/vue3/01_创建vue3项目.html',
                         '/advanced/vue3/02_组合式API.html',
-                        '/advanced/vue3/03_vue2和vue3响应式对比.html'
+                        '/advanced/vue3/03_vue2和vue3响应式对比.html',
+                        '/advanced/vue3/04_创建vue3和ts项目.html'
                     ]
                 },
                 {
