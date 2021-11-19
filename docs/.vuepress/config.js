@@ -8,7 +8,7 @@ module.exports = {
         nav:[ // 导航栏配置
             {text: '前端基础', link: '/basic/javascript/01_类型.html' },
             {text: '进阶之路', link: '/advanced/vue3/01_创建vue3项目.html' },
-            {text: '组件', link: '/components/01_懒加载.html' },
+            {text: '博客', link: '/components/01_懒加载.html' },
             {text: '计算机基础', link: '/computerBasic/designPatterns/01_发布订阅模式.html' },
             {text: 'Github', link: 'https://github.com/zhouxiaowan'}
         ],
@@ -48,10 +48,11 @@ module.exports = {
             ],
             '/components/': [
                 {
-                    title: '组件',
+                    title: '博客',
                     children: [
                         '/components/01_懒加载.html',
-                        '/components/02_css滚动条.html'
+                        '/components/02_css滚动条.html',
+                        '/components/03_Nginx.html'
                     ]
                 }
             ],
