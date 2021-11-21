@@ -52,7 +52,8 @@ module.exports = {
                     children: [
                         '/components/01_懒加载.html',
                         '/components/02_css滚动条.html',
-                        '/components/03_Nginx.html'
+                        '/components/03_Nginx.html',
+                        '/components/04_抓包工具Charles.html'
                     ]
                 }
             ],
