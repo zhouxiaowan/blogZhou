@@ -30,7 +30,7 @@ __step1:__  下载证书
 __step2:__ 将Charles证书改为始终信任
 <img :src="$withBase('/images/zhengshu.png')" alt="https抓包">
 
-此时，按照网上教程边可以了，但是我电脑上https请求还是显示Unknow  
+证书弄好之后继续配置SSL Proxying 
 
 <img :src="$withBase('/images/zhengshu3.png')" alt="https抓包">
 <img :src="$withBase('/images/zhengshu4.png')" alt="https抓包">  
