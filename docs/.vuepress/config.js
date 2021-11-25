@@ -45,6 +45,14 @@ module.exports = {
                         '/computerBasic/designPatterns/02_迭代器模式.html'
                     ]
                 },
+                {
+                    title: '计算机网络',
+                    children: [
+                        '/computerBasic/computerNetwork/01_计算机网络模型.html',
+                        '/computerBasic/computerNetwork/02_传输层协议.html',
+                        '/computerBasic/computerNetwork/03_网络层协议.html'
+                    ]
+                }
             ],
             '/components/': [
                 {
