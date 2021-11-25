@@ -61,7 +61,8 @@ module.exports = {
                         '/components/01_懒加载.html',
                         '/components/02_css滚动条.html',
                         '/components/03_Nginx.html',
-                        '/components/04_抓包工具Charles.html'
+                        '/components/04_抓包工具Charles.html',
+                        '/components/05_前端性能优化.html'
                     ]
                 }
             ],
