@@ -26,6 +26,7 @@ module.exports = {
                         '/basic/javascript/07_内存.html',
                         '/basic/javascript/08_冒泡和捕获.html',
                         '/basic/javascript/09_防抖和节流.html',
+                        '/basic/javascript/10_宏任务和微任务.html',
                     ]
                 },
                 {
