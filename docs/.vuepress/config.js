@@ -32,9 +32,10 @@ module.exports = {
                 {
                     title: 'ECMAScript 6',
                     children: [
-                        '/basic/es6/promise.html',
-                        '/basic/es6/set.html',
-                        '/basic/es6/map.html'
+                        '/basic/es6/01_promise.html',
+                        '/basic/es6/02_class.html',
+                        '/basic/es6/03_map.html',
+                        '/basic/es6/04_set.html'
                     ]
                 }
             ],

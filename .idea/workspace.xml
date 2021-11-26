@@ -28,7 +28,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a969d9bd-32be-4410-ab25-fb7ba696ac60" name="Default Changelist" comment="UDP和TCP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic/es6/map.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic/es6/promise.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic/es6/set.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,6 +77,7 @@
       <workItem from="1637384102514" duration="842000" />
       <workItem from="1637388376120" duration="107000" />
       <workItem from="1637803548374" duration="978000" />
+      <workItem from="1637830445111" duration="1407000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1636351716094</created>
@@ -137,10 +141,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1636351539165" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1637804052767">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1637830564499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1637804052767" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1637830564499" />
     <state x="574" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636453260321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
