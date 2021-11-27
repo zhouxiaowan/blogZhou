@@ -187,7 +187,36 @@ class Foo {
 ```
 老的写法容易忽略
 ## 2.5 Class的继承
-Class可以通过`extends`关键字实现继承
+Class可以通过`extends`关键字实现继承  
+```js
+class A{
+  static m = 2
+  constructor() {
+    // ES6 为new命令引入了一个new.target属性，该属性一般用在构造函数之中，返回new命令作用于的那个构造函数。如果构造函数不是通过new命令或Reflect.construct()调用的，new.target会返回undefined，因此这个属性可以用来确定构造函数是怎么调用的。
+    this.p = 2
+    console.log(new.target.name);
+  }
+}
+class B extends A{
+  constructor(){
+    super()
+    console.log(super.p) // undefined,父类实例上的属性和方法无法通过super调用
+  }
+}
+new A() // A 
+
+// 执行new B()时，super内部的this指向的是B
+new B() // B 
+```
+super作为对象时，在普通方法中，指向父类的原型对象，所以实例上的方法和属性无法通过super调用。在静态方法中，指向父类。  
+如果属性定义在父类的原型对象上，super就可以取到。  
+ 
+
+__注意点：__ 子类必须在`constructor`方法中调用`super`方法，否则新建实例时会报错，这是因为子类自己的this对象，必须先通过父类的构造函数完成塑造，得到与父类同样的实例的属性和方法，如果不调用super，子类就得不到自己的this对象。  
+
+类的prototype属性和__proto__属性
+* 子类的`__proto__`属性，`表示构造函数的继承`，总是指向父类
+* 子类的`prototype属性的__proto__`属性，`表示方法的继承`，总是指向父类的prototype属性
 
 
 ## 2.6 es5和es6不同点

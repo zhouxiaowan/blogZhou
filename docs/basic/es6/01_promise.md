@@ -71,5 +71,62 @@ promise.then(res=>{
 // 运行结果：success
 ```
 ## 1.2 Promise实现原理
+Promise实现原理还是基于回调函数，只不过是把回调封装在了内部。使用then可以进行链式调用。  
+首先我们再来通过一个例子简单看一个Promise的用法
+```js
+const promise = new Promise(function(resolve,reject){ // ①
+  resolve('success') // ④
+})
+promise.then(res=>{
+  console.log(res) // success ④
+  return 'ok'
+}).then(res=>{
+  console.log(res) // ok
+  throw new Error('err')
+}).catch(err=>{ // ③
+  connsole.log(err) // Error:err
+})
+```
+从上面的例子中和上面所说的promise介绍中我们可以得知：
+1. Promise构造器中，传入的参数是一个函数。函数的参数也是一个函数。 
+2. 调用then方法会返回一个全新的Promise对象
+3. catch()方法是then方法`.then(null,function(reject){})`，`.then(undefined,function(reject){})`的别名,用于指定发生错误时的回调函数
+4. resolve函数接受一个参数value，是异步操作返回的结果，传给回调函数的参数
+
+学习中....尽快补充
+ 
 
 ## 1.3 实现一个Promise.all()
+Promise.all方法用于将多个Promise实例，包装成一个新的Promise实例。
+Promise.all([p1,p2,p3])接受一个数组作为参数，p1,p2,p3都是一个Promise实例，如果不是就会调用Promise.resolve方法，将参数转为promise实例。  
+注意⚠️：另外，Promise.all()方法的参数可以不是数组，但必须具有 Iterator 接口，且返回的每个成员都是 Promise 实例。  
+`const p = Promise.all([p1,p2,p3])`  
+Promise.all特点：  
+* 只有p1,p2,p3的状态都变为fulfilled时，p的状态才会变成fulfilled，此时p1,p2,p3的返回值变成一个数组，传递给p的回调参数
+* 只要其中任何一个变为reject，p的状态就会变成reject，第一个reject的值会传递给p的回调函数。
+
+```js
+Promise.all = function(promises){
+  // Promsie.all 返回的是一个新的Promise
+  return new Promise((resolve,reject)=>{
+    // 判断参数是不是具有iterator接口，如果不具有，抛出错误
+    if(typeof promises[Symbol.iterator] !== 'function'){
+      return reject(new Error('传入的参数必须具备Iterator 接口'))
+    }
+
+    let result = [],counter = 0
+    for(let i = 0; i < promises.length;i++){
+      Promsie.resolve(promises[i]).then(res=>{
+        result[i] = res
+        counter++
+        if(counter === promises.length){
+          resolve(result)
+        }
+      }).catch(err=>{
+        reject(err)
+      })
+    }
+  })
+}
+
+```
