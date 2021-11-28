@@ -35,7 +35,8 @@ module.exports = {
                         '/basic/es6/01_promise.html',
                         '/basic/es6/02_class.html',
                         '/basic/es6/03_map.html',
-                        '/basic/es6/04_set.html'
+                        '/basic/es6/04_set.html',
+                        '/basic/es6/05_iterator.html'
                     ]
                 }
             ],
