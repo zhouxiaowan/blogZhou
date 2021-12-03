@@ -28,10 +28,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a969d9bd-32be-4410-ab25-fb7ba696ac60" name="Default Changelist" comment="UDP和TCP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic/es6/map.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic/es6/promise.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/basic/es6/set.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/basic/javascript/09_防抖和节流.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic/javascript/09_防抖和节流.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,9 @@
       <workItem from="1637384102514" duration="842000" />
       <workItem from="1637388376120" duration="107000" />
       <workItem from="1637803548374" duration="978000" />
-      <workItem from="1637830445111" duration="1407000" />
+      <workItem from="1637830445111" duration="1410000" />
+      <workItem from="1638412834867" duration="606000" />
+      <workItem from="1638494522371" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1636351716094</created>
