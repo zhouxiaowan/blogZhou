@@ -67,7 +67,8 @@ module.exports = {
                         '/components/04_抓包工具Charles.html',
                         '/components/05_前端性能优化.html',
                         '/components/06_吸顶效果.html',
-                        '/components/07_上传图片.html'
+                        '/components/07_上传图片.html',
+                        '/components/08_vue返回上一页不刷新.html'
                     ]
                 }
             ],
