@@ -68,7 +68,9 @@ module.exports = {
                         '/components/05_前端性能优化.html',
                         '/components/06_吸顶效果.html',
                         '/components/07_上传图片.html',
-                        '/components/08_vue返回上一页不刷新.html'
+                        '/components/08_vue返回上一页不刷新.html',
+                        '/components/09_WebAssembly.html',
+                        { title:'css无线滚动', path:"/components/10_css无线滚动.html"}
                     ]
                 }
             ],
